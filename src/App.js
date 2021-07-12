@@ -1,6 +1,12 @@
+import Filters from "./Filters"
+import Results from "./Results"
 const App = () =>{
     return(
-        <h1>Ecomm Website</h1>
+        <div>
+            <h1>Ecomm Website</h1>
+            <Filters />
+            <Results />
+        </div>
     )
 }
 
